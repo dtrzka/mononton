@@ -1,0 +1,52 @@
+:root {
+    --blue: #2562DF;
+    --grey: #D9D9D9;
+}
+
+.navbar {
+    padding: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar div a {
+    text-decoration: none;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+    margin-right: 4em;
+    display: grid;
+    grid-template-columns: repeat(2, 70%);
+}
+
+.nav-right div {
+    width: 6em;
+}
+
+.nav-right div p {
+    font-size: small;
+}
+
+.nav-login {
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--blue);
+}
+
+.nav-language {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#nav-logo {
+    color: var(--blue);
+    font-size: xx-large;
+    font-weight:800;
+}
+
