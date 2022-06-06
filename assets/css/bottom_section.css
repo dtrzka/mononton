@@ -1,0 +1,33 @@
+.bottom-section {
+    color: white;
+}
+
+.bottom-section-header {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    font-size: larger;
+}
+
+.movies {
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(6, 25%);
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.movies::-webkit-scrollbar {
+    display: none;
+}
+
+.movie-card img {
+    margin-left: 1.35em;
+}
+
+
+.movie-title {
+    margin-left: 1.7em;
+    text-align: center;
+    max-width: 12em;
+}

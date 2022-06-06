@@ -1,0 +1,10 @@
+:root {
+    --blue: #2562DF;
+    --grey: #D9D9D9;
+}
+
+.logo {
+    color: var(--blue);
+    font-size: xx-large;
+    font-weight:800;
+}
