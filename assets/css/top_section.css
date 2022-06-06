@@ -1,0 +1,7 @@
+.top-section {
+    padding-bottom: 20em;
+    background: url(./assets/images/index-bg.jpg) rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
